@@ -1,0 +1,31 @@
+= shoesgem
+
+Shoes is a tiny graphical app kit. ShoesGem is a gem of Shoes.
+
+== Note
+
+This is a purely-experimental trial version. Not official. So, just only for Windows.
+
+== Write your Shoes app with ShoesGem
+ 
+* gem install shoesgem
+* write your app like this
+
+	SHOES_APP = File.expand_path(__FILE__)
+	require 'shoes'
+	
+	begin
+	
+	Shoes.app do
+	  para 'hello world!'
+	end
+	
+	rescue
+	  puts 'fin!'
+	end
+
+== Copyright
+
+ShoesGem was built by ashbb.
+
+See LICENSE for details.
